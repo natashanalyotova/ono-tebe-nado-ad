@@ -112,6 +112,7 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex-grow: 1;
   width: 100%;
 }
@@ -123,7 +124,6 @@
 .aligned-text_left {
   text-align: left;
   align-self: flex-start;
-  margin-top: 20px;
 }
 
 .aligned-text_center {
@@ -134,7 +134,6 @@
 .aligned-text_right {
   text-align: right;
   align-self: flex-end;
-  margin-bottom: 20px;
 }
 
 .letter-spacing-extended {
