@@ -92,7 +92,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 80px 40px 40px;
+  padding: 40px;
 }
 
 .overlay {
@@ -112,8 +112,9 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   flex-grow: 1;
+  gap: 120px;
   width: 100%;
 }
 
@@ -123,17 +124,14 @@
 
 .aligned-text_left {
   text-align: left;
-  align-self: flex-start;
 }
 
 .aligned-text_center {
   text-align: center;
-  align-self: center;
 }
 
 .aligned-text_right {
   text-align: right;
-  align-self: flex-end;
 }
 
 .letter-spacing-extended {
@@ -174,7 +172,6 @@
 .lots {
   max-width: 1052px;
   margin: 180px auto 0;
-  padding: 0 24px;
 }
 
 .lots__heading {
@@ -260,7 +257,7 @@
 .about {
   max-width: 1052px;
   margin: 120px auto 0;
-  padding: 0 24px;
+  padding-bottom: 180px;
   display: grid;
   grid-template-columns: 340px 1fr;
   gap: 40px;
@@ -269,7 +266,7 @@
 
 .about__column:first-child {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .about__logo {
@@ -319,7 +316,7 @@
 /* === ПОДВАЛ === */
 .footer {
   max-width: 1100px;
-  margin: 180px auto 0;
+  margin: 0 auto;
   padding: 60px 40px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
