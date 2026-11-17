@@ -50,7 +50,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   display: block;
-  width: 150px;
+  width: 144px;
 }
 
 .header__logo-image {
@@ -85,15 +85,14 @@
   position: relative;
   max-width: 1140px;
   margin: 0 auto;
-  min-height: 700px;
-  height: auto;
+  min-height: 520px;
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 100px 40px 40px;
+  padding: 90px 40px 40px;
 }
 
 .overlay {
